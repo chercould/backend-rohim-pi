@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "pm2 start index.js",
-    "stop": "pm2 stop index.js",
-    "delete": "pm2 delete index.js",
+    "start": "node index.js",
+    "stop": "node index.js",
+    "delete": "node index.js",
     "force-stop": "killall node",
     "restart": "pm2 restart index.js",
     "migrate": "npx sequelize-cli db:migrate",
